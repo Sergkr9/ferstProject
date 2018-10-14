@@ -30,16 +30,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
-    <Compile Include="ferstProject\__init__.py" />
-    <Compile Include="ferstProject\settings.py" />
-    <Compile Include="ferstProject\urls.py" />
-    <Compile Include="ferstProject\wsgi.py" />
+    <Compile Include="ferstProjectlocation\__init__.py" />
+    <Compile Include="ferstProjectlocation\settings.py" />
+    <Compile Include="ferstProjectlocation\urls.py" />
+    <Compile Include="ferstProjectlocation\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ferstProject\" />
+    <Folder Include="ferstProjectlocation\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
